@@ -1,10 +1,9 @@
 # Flask Web Application with Mongo DB
 
 <p align="center">
-  <img src="https://github.com/haxamxam/Flask_WebApplication_MongoDB/blob/main/flask_website.gif" width="350" alt="accessibility text">
+  <img src="https://github.com/haxamxam/Flask_WebApplication_MongoDB/blob/main/flask_website.gif" width="600" alt="accessibility text">
 </p>
 
-![alt text](https://github.com/haxamxam/Flask_WebApplication_MongoDB/blob/main/flask_website.gif)
 
 ## Installation
 
