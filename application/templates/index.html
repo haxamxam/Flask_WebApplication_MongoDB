@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Simple Enrolment System using Python, Flask and MongoDB.</h1>
+
+            {% if session['username'] %}
+                <h3>Let's get started.</h3>
+            {% else %}
+                <p>Already registered? <a href="{{url_for('login') }}">Login</a></p>
+            {% endif %}
+
+            <div style="text-align:left;">
+                <h2>What is Python</h2>
+
+                <p>Python is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. </p>
+             <dl>
+              <dt>It is being used in every industry and scientific field one can imagine. Some of these fields include:</dt>
+
+              <dd style="margin-top: .4rem;">- Data Science</dd>
+              <dd>- Machine Learning</dd>
+              <dd>- Computer Vision</dd>
+              <dd>- Web Development</dd>
+              <dd>- Neuroscience and Psychology</dd>
+              <dd>- Astronomy </dd>
+            </dl>
+                <h2>What is Flask</h2>
+                
+                <p>Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy</p>
+
+                <h2> What is Jinja2</h2>
+
+                <p>Jinja2 is a modern day templating language for Python developers. It was made after Django's template. It is used to create HTML, XML or other markup formats that are returned to the user via an HTTP request</p>
+                <h2> What is Mongo DB</h2>
+
+                <p>MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
