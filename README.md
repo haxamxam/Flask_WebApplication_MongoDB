@@ -25,7 +25,7 @@ flask run
 
 ## init.py file
 
-The init file contains the Flask application and the Mongo Engine to connect to our Database
+The init file contains the Flask application and the Mongo Database.
 
 
 ```python
