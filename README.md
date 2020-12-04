@@ -23,7 +23,9 @@ Go to the main directory in the terminal and run the following
 flask run
 ```
 
-## __init.py__
+## init.py file
+
+The init file contains the Flask application and the Mongo Engine to connect to our Database
 
 
 ```python
