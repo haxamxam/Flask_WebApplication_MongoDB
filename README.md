@@ -21,6 +21,25 @@ Go to the main directory in the terminal and run the following
 flask run
 ```
 
+## __init.py__
+
+
+```python
+from flask import Flask
+from config import Config
+from flask_mongoengine import MongoEngine
+
+app = Flask(__name__)
+app.config.from_object(Config)
+
+db = MongoEngine()
+db.init_app(app)
+
+from application import routes
+
+```
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
