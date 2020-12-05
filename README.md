@@ -3,7 +3,7 @@
 A simple enrollment system build using Python, Flask, Jinja2 and MongoDB
 
 <p align="center">
-  <img src="https://github.com/haxamxam/Flask_WebApplication_MongoDB/blob/main/flask_website.gif" width="600" height = "600" alt="accessibility text">
+  <img src="https://github.com/haxamxam/Flask_WebApplication_MongoDB/blob/main/flask_website.gif" width="800" height = "500" alt="accessibility text">
 </p>
 
 
